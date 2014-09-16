@@ -1,0 +1,24 @@
+*{
+	margin:0;
+    padding:0;
+}
+#main{
+    /*box相对于main定位，而box需要绝对定位 	 */
+	position:relative;
+}
+.box{
+	/*要用padding不要用margin，获取数据块高度和数据块之间的距离，
+	offsetHeight可以获取padding在内的高度*/
+	padding:15px 0 0 15px;   
+	float:left;
+}
+.pic{
+	padding:10px;
+	border:1px solid #ccc;
+	border-redius:5px;
+	box-shadow:0 0 5px #ccc;
+}
+.pic img{
+	width:165px;
+	height:auto;
+}
